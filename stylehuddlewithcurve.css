@@ -1,0 +1,216 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    /* overflow: hidden; */
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+.box{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.try a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.try a:hover{
+    color:  hsl(322, 90%, 72%);
+}
+
+.text a{
+    background-color:  hsl(322, 100%, 66%);
+    text-decoration: none;
+    padding: 12px 40px;
+    color: white;
+    border-radius: 20px;
+    font-family: 'Open Sans';
+    font-weight: 400px;
+}
+.text a:hover{
+    background-color:  hsl(322, 90%, 72%);
+}
+
+.mockups img{
+    width: 50%;
+    margin-top: 40px;
+}
+
+.sec2{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 60px;
+    
+}
+.sec2 img{
+    width: 25%;
+}
+.sec2 h3{
+    font-size: 30px;
+}
+
+.sec3 img{
+    width: 80%;
+}
+
+.sec3{
+    margin-top: 110px;
+}
+
+.grow, .users{
+    display: flex;
+    width: 110%;
+     padding: 20px 70px;
+    margin-bottom: 100px;
+    background-color: #F6FBFF;
+}
+
+
+.grow-text, .flow-text{
+    width: 100%;
+    margin: 80px 2px;
+}
+
+.grow-top img{
+    width: 100%;
+    position: absolute;
+    top: 139.1%;
+}
+
+.grow-bottom img{
+    width: 100%;
+    position: absolute;
+    top: 210.1%;
+}
+
+.flow{
+    display: flex;
+    width: 100%; 
+     padding: 20px 24px;
+     margin-bottom: 60px;
+}
+
+h1{
+        margin-bottom: 20px;
+        font-family: 'Poppins';
+        font-weight: 600px;   
+}
+
+p{
+    font-family: 'Open Sans';
+    font-weight: 400px;
+    margin-bottom: 25px;
+    color: hsl(208, 11%, 55%);
+}
+
+.sec4{
+    text-align: center;
+    height: 30vh;
+    padding: 100px;
+}
+
+.user-top img{
+    width: 100%;
+    position: absolute;
+    top: 279.1%;
+}
+
+.logo3{
+    fill: white;
+}
+
+.user-bottom img{
+    width: 100%;
+    position: absolute;
+    top: 350.1%;
+}
+
+.foot{
+    margin-top: 50px;
+}
+
+.foot img{
+    width: 100%;
+
+}
+
+.sub-footer{
+    width: 100vw;
+    height: 60vh;
+    position: absolute;
+    top: 427%;
+    background-color: hsl(192, 100%, 9%);
+}
+
+.footer{
+    display: flex;
+   justify-content: space-between;
+     padding: 20px 50px;
+
+}
+
+.footer-social{
+    display: flex;
+    gap: 20px;
+}
+
+.icon{
+    fill: white;
+}
+.footer-social img{
+    width: 60%;
+    padding: 12px 12px;
+ background-color: hsl(192, 100%, 9%);
+}
+
+.location ,.email,.phone{
+    display: flex;
+    gap: 20px;
+}
+
+.location img,.email img,.phone img{
+    width: 5%;
+    height: 3vh;
+}
+
+.footer-text a{
+    background-color:  hsl(322, 100%, 66%);
+    text-decoration: none;
+    padding: 5px 40px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-weight: 400px;
+}
+
+
+.logo2 p{
+    margin-top: 15px;
+}
+
+.input{
+    display: flex;
+    gap: 14px;
+}
+
+input{
+    height: 5.5vh;
+    width: 53%;
+    padding: 12px 10px;
+}
